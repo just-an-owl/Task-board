@@ -1,0 +1,76 @@
+﻿<Window x:Class="task_board.Task_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task_board"
+        mc:Ignorable="d"
+        Title="Task_window" Height="450" Width="800">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="Title_task" 
+                   Grid.Row="2" 
+                   Grid.Column="1"   Grid.ColumnSpan="5" 
+                   TextWrapping="Wrap" 
+                   Background="#FFE7E7E7"></TextBlock>
+        <TextBlock x:Name="Text" 
+                   Grid.Column="1" Grid.ColumnSpan="5" 
+                   Grid.Row="4" Grid.RowSpan="2" 
+                   TextWrapping="Wrap"
+                   Background="#FFE7E7E7"></TextBlock>
+        <TextBlock x:Name="Date" 
+                   Grid.Row="7" 
+                   Grid.Column="1" Grid.ColumnSpan="5" 
+                   TextWrapping="Wrap"
+                   Background="#FFE7E7E7"></TextBlock>
+        <TextBlock x:Name="Status_false" 
+                   Text="не выполнено"
+                   Grid.Row="0" 
+                   Grid.Column="6"  
+                   TextWrapping="Wrap"
+                   Background="#FFF40B0B"></TextBlock>
+        <TextBlock x:Name="Status_true" 
+                   Text="выполнено"
+                   Grid.Row="0" 
+                   Grid.Column="6"  
+                   TextWrapping="Wrap"
+                   Background="#FF2AF40B" d:IsHidden="True"/>
+
+        <Button x:Name="Exit_button" Content="Выход" 
+                Grid.Column="1" Grid.Row="9" 
+                Click="Exit_button_Click"></Button>
+        <Button x:Name="Conpleted_button" Content="Выполнено" 
+                Grid.Column="5" Grid.Row="9" 
+                Click="Conpleted_button_Click"></Button>
+        <Button x:Name="Delete_button" Content="Удалить"
+                Click="Delete_button_Click"
+                Grid.Column="3" Grid.Row="9"
+                ></Button>
+    </Grid>
+</Window>

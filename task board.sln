@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task board", "task board\task board.csproj", "{56BD27E3-7FAF-422B-8DD1-6CD413F24049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BD27E3-7FAF-422B-8DD1-6CD413F24049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BD27E3-7FAF-422B-8DD1-6CD413F24049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BD27E3-7FAF-422B-8DD1-6CD413F24049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BD27E3-7FAF-422B-8DD1-6CD413F24049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9596D632-72A7-479E-9605-616F62A63F66}
+	EndGlobalSection
+EndGlobal

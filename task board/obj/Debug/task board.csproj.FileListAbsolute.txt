@@ -1,0 +1,25 @@
+C:\Users\danila\source\repos\task board\task board\bin\Debug\task board.exe
+C:\Users\danila\source\repos\task board\task board\bin\Debug\task board.exe.config
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Add_task_window.g.cs
+C:\Users\danila\source\repos\task board\task board\obj\Debug\MainWindow.g.cs
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Task_window.g.cs
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Urgent_task.g.cs
+C:\Users\danila\source\repos\task board\task board\obj\Debug\App.g.cs
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board_MarkupCompile.cache
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board_MarkupCompile.lref
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Add_task_window.baml
+C:\Users\danila\source\repos\task board\task board\obj\Debug\MainWindow.baml
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Task_window.baml
+C:\Users\danila\source\repos\task board\task board\obj\Debug\Urgent_task.baml
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.g.resources
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task_board.Properties.Resources.resources
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.csproj.GenerateResource.cache
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.csproj.CoreCompileInputs.cache
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.exe
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.pdb
+C:\Users\danila\source\repos\task board\task board\bin\Debug\task board.pdb
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.csprojAssemblyReference.cache
+C:\Users\danila\source\repos\task board\task board\bin\Debug\task board.exe.manifest
+C:\Users\danila\source\repos\task board\task board\bin\Debug\task board.application
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.exe.manifest
+C:\Users\danila\source\repos\task board\task board\obj\Debug\task board.application

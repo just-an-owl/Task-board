@@ -1,0 +1,54 @@
+﻿<Window x:Class="task_board.Add_task_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task_board"
+        mc:Ignorable="d"
+        Title="Add_task_window" Height="450" Width="800" Background="White">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="Description" Text="Описание" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" AcceptsTab="True" TextWrapping="Wrap" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="7" Background="#FFE7E7E7"></TextBox>
+        <TextBox x:Name="Topic" Text="Тема" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" AcceptsTab="True" TextWrapping="Wrap" Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="1" Background="#FFE7E7E7"></TextBox>
+        <TextBox x:Name="Date" Text="Дата" Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="3" Background="#FFE7E7E7"></TextBox>
+
+        <StackPanel 
+            Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="5"
+            >
+            <RadioButton GroupName="Task_type" Content="Срочные задачи" Checked="RadioButton_Checked"></RadioButton>
+            <RadioButton GroupName="Task_type" Content="Задачи ближайших дней" Checked="RadioButton_Checked_1"></RadioButton>
+            <RadioButton GroupName="Task_type" Content="Задачи текущего месяца" Checked="RadioButton_Checked_2"></RadioButton>
+        </StackPanel>
+
+        <Button x:Name="Add" Content="Добавить" ToolTip="Добавить" Grid.Column="6" Grid.Row="7" Click="Add_Button"></Button>
+        <Button x:Name="Cancle" Content="Отмена" ToolTip="Отмена" Grid.Column="4" Grid.Row="7" Click="Cancel_Button"></Button>
+
+    </Grid>
+</Window>
