@@ -30,5 +30,6 @@
         <Button x:Name="Urgent_Task" Content="Задачи" Click="Urgent_Task_Button" Grid.Column="1" Grid.Row="1"/>
         <Button x:Name="Add_Task" Content="Добавить задачу" Click="Add_task_button" Grid.Column="1" Grid.Row="3"></Button>
         <Button x:Name="Exit" Content="Выход" Click="Exit_Button" Grid.Column="1" Grid.Row="5"></Button>
+        <Button x:Name="Test_button" Content="Test" Click="Test_button_Click"></Button>
     </Grid>
 </Window>

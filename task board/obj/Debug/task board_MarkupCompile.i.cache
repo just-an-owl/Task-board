@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\danila\source\repos\task board\task board\obj\Debug\
+C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\obj\Debug\
 task_board
 none
 false
 DEBUG;TRACE
-C:\Users\danila\source\repos\task board\task board\App.xaml
-4-1153727715
+C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\App.xaml
+51063414687
 
-10858476699
+111296346187
 13-1505183044
-Add_task_window.xaml;MainWindow.xaml;Task_window.xaml;Urgent_task.xaml;
+Add_task_window.xaml;MainWindow.xaml;Task_page.xaml;Task_window.xaml;Urgent_task.xaml;
 
-False
+True
 

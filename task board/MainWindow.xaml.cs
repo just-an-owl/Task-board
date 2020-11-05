@@ -100,5 +100,11 @@ namespace task_board
             if (!fileInfo2.Exists)
                 fileInfo2.Create();
         }
+
+        private void Test_button_Click(object sender, RoutedEventArgs e)
+        {
+            Task_page task_Page = new Task_page();
+            task_Page.Show();
+        }
     }
 }
