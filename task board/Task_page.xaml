@@ -33,24 +33,75 @@
                     <TextBlock>Срочные</TextBlock>
                 </TabItem.Header>
                 <TabItem.Content>
-                    <Grid></Grid>
+                    <Grid>
+                        <ListView
+            x:Name="Task_list_urgent" 
+            Grid.Column="1" Grid.ColumnSpan="2"
+            Grid.Row="1" Grid.RowSpan="4"
+            Background="#FFE7E7E7"
+            ItemsSource="{DynamicResource ResourceKey=Task}"
+            SelectionChanged="Task_list_urgent_SelectionChanged" >
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="77">Тема</GridViewColumn>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=Status_Task}" Width="70">Статус</GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
                 </TabItem.Content>
             </TabItem>
             <TabItem x:Name="Common_task">
                 <TabItem.Header>
                     <TextBlock>Не очень срочные</TextBlock>
                 </TabItem.Header>
+                <TabItem.Content>
+                    <Grid>
+                        <ListView
+                            x:Name="Task_list_coming_days"                           
+                            Background="#FFE7E7E7"
+                            ItemsSource="{DynamicResource ResourceKey=Task}"
+                            SelectionChanged="Task_list_coming_days_SelectionChanged" >
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="77">Тема</GridViewColumn>
+                                        <GridViewColumn DisplayMemberBinding="{Binding Path=Status_Task}" Width="70">Статус</GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem.Content>
             </TabItem>
+            
+            
             <TabItem x:Name="Next_month_task">
                 <TabItem.Header>
-                    <TextBlock>Не срочные</TextBlock>
+                    <TextBlock>Не срочные</TextBlock>                    
                 </TabItem.Header>
+                <TabItem.Content>
+                    <Grid>
+                        <ListView
+                            x:Name="Task_list_next_month" 
+                            Background="#FFE7E7E7"
+                            ItemsSource="{DynamicResource ResourceKey=Task}"
+                            SelectionChanged="Task_list_next_month_SelectionChanged" >
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="77">Тема</GridViewColumn>
+                                        <GridViewColumn DisplayMemberBinding="{Binding Path=Status_Task}" Width="70">Статус</GridViewColumn>
+                                    </GridView>
+                                 </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem.Content>
             </TabItem>
         </TabControl>
 
-        <TextBlock x:Name="Text_task" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2"></TextBlock>
-        <TextBlock x:Name="Date" Grid.Column="4" Grid.Row="4" Grid.ColumnSpan="2"></TextBlock>
-
+        <TextBox x:Name="Content_task" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"></TextBox>
+        <TextBox x:Name="Date_task"></TextBox>
+        
+        
+        
         <Button x:Name="Edit_button" Grid.Column="5" Grid.Row="6" Click="Edit_button_Click"></Button>
         
     </Grid>

@@ -28,7 +28,6 @@ C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\bin\Debug\task bo
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\bin\Debug\task board.application
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\bin\Debug\task board.exe
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\bin\Debug\task board.pdb
-C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\obj\Debug\task board.csprojAssemblyReference.cache
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\obj\Debug\Add_task_window.g.cs
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\obj\Debug\MainWindow.g.cs
 C:\Users\danila\Source\Repos\just-an-owl\Task-board\task board\obj\Debug\Task_window.g.cs

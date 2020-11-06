@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="task board.exe" size="31232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="task board.exe" size="33792">
       <assemblyIdentity name="task board" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>k5DW0ZvawxoTNQ7T1LcsLgT1eJF8/3Vv2GwqabUnF3E=</dsig:DigestValue>
+        <dsig:DigestValue>+hpbRhwFKjXvqV7rzjIaBGiMS2xaB3jw7CqwZRPnuF0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
